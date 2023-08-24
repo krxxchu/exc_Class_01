@@ -14,6 +14,7 @@ public class Pracownik extends Osoba {
 
     @Override
     public void przedstawSie() {
-        System.out.println("Jestem " + imie +" "+ nazwisko+" i pracuje w firmie " + nazwaFirmy + " na stanowisku " + stanowisko);
+        super.przedstawSie();
+        System.out.println( "i pracuję w firmie "+ nazwaFirmy + " na stanowisku " + stanowisko);
     }
 }

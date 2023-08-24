@@ -1,8 +1,8 @@
 package zadanie_dziedziczenie;
 
 public class Osoba {
-    String imie;
-    String nazwisko;
+    protected String imie;
+    protected String nazwisko;
 
     public Osoba(String imie, String nazwisko) {
         this.imie = imie;
