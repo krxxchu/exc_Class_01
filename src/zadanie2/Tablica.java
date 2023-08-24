@@ -38,7 +38,7 @@ public class Tablica {
         return najwiekszyElement;
     }
 
-    public int wyborNajmniejszegoElementu() {
+    public int wyborMin() {
         int najmniejszyElement = tablicaInt[0];
         for (int i = 1; i < tablicaInt.length; i++) {
             if (najmniejszyElement > tablicaInt[i]) {

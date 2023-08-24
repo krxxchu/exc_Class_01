@@ -9,13 +9,18 @@ public class Matma {
         return  poleKola;
     }
 
-    public static double liczObwodKola (int promien) {
+    public static double liczObwodKola (double promien) {
         double obwodKola = 2 * PI * promien;
         return obwodKola;
     }
 
-    public static double liczPoleProstokata (int bokA, int bokB) {
+    public static double liczPoleProstokata (double bokA, double bokB) {
         double poleProstokata = bokA * bokB;
         return poleProstokata;
+    }
+
+    public static double liczObwodProstokata (double a, double b) {
+        double obwodProstokata = 2 * a + 2 * b;
+        return obwodProstokata;
     }
 }
